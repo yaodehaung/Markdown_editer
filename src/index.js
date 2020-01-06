@@ -24,9 +24,10 @@ const store = createStore(
 ReactDOM.render(
         <Provider store={ store }>
             <Router>
-                <Header />
+                
                 <Switch>
                     <Route exact path={ `/` }>
+                    <Header />
                         <List />
                     </Route>
                     <Route exact path={ [`/:id`, `/new`] }>

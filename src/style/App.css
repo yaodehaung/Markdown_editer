@@ -1,15 +1,22 @@
-.App {
-    /* position: absolute;
+.test {
+    position: absolute;
     top: 0;
     bottom: 0;
-    left: 120px;
-    right: 0; */
+    left: 0px;
+    right: 0;
+}
+.App {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
 }
 
 .app-block {
-    /* position: absolute;
+    position: absolute;
     top: 0;
-    bottom: 0; */
+    bottom: 0;
     display: inline-block;
     vertical-align: top;
     width: 50%;
