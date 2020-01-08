@@ -9,15 +9,22 @@ import {
     Link
 } from 'react-router-dom';
 import '../style/App.css';
+import '../style/Header.css';
+
 
 function App() {
     return (
         <>
-        <Switch>
-            <Route exact path={ [`/:id`, `/new`] }>
-                <Link to={ `/` }>HOME</Link>
-            </Route>
-        </Switch>
+         <header>
+            <h1> Maker</h1>
+            <nav>
+                <Switch>
+                    <Route exact path={ [`/:id`, `/new`] }>
+                        <Link to={ `/` }>HOME</Link>
+                    </Route>
+                </Switch>
+            </nav>
+        </header>
         <article className="App">
            
             <Title />
