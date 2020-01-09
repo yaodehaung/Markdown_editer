@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { updatePreview } from '../actions';
+
 import '../style/Title.css';
 
 let elm;
@@ -22,6 +23,7 @@ function Title({ article, dispatch }) {
                         } }
                     ref={ ref => elm = ref }
                 />
+           
         </div>
     );
 

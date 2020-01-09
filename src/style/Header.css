@@ -4,6 +4,7 @@
     left: 0; */
 #root > header {
     background-color: #fff;
+    height: 80px;
 }
 
 
@@ -12,13 +13,13 @@
 }
 
 #root > header h1 {
+    padding: 20px;
     margin: 0;
     display: inline-block;
-    background-color: #2a2a2a;
+    color: #2a2a2a;
     line-height: 1em;
     text-align: right;
     font-weight: 200;
-    color: #fff;
 }
 
 #root > header h1 strong {
